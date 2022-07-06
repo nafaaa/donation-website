@@ -80,7 +80,7 @@ body {
 
   color: #707070;
 }
-.amount-box .red-box {
+.amount-box #red-box {
   color: #ff5959;
   background: #ffeeee;
   border: 2px solid #ff5959;
@@ -117,15 +117,45 @@ body {
   margin: 25px 0px;
   text-align: left;
 }
-.food {
+#food {
   background-color: rgba(157, 232, 240, 0.1);
 }
-.family {
+#family {
   background: rgba(255, 89, 89, 0.1);
 }
-.education {
+#education {
   background-color: #fff4d6;
 }
+.contact-area {
+  background-color: #f2f2f2;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 7px;
+  border: 1px solid #ddd;
+}
+.contact-form textarea {
+  height: 110px;
+}
+.contact-form input[type="submit"] {
+  background-color: #ff5959;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
 .subscription-area {
   height: 200px;
   width: 800px;
@@ -154,35 +184,6 @@ body {
   background-color: #ff5959;
   border: 1px solid transparent;
   margin-left: -21px;
-}
-
-.contact-area {
-  background-color: #f2f2f2;
-}
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 800px;
-}
-
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 7px;
-  border: 1px solid #ddd;
-}
-.contact-form textarea {
-  height: 110px;
-}
-.contact-form input[type="submit"] {
-  background-color: #ff5959;
-  border: 0;
-  color: #fff;
-  font-size: 20px;
-  font-weight: bold;
 }
 
 .footer-area {
