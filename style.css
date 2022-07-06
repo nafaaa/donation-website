@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+.header-banner {
+  background-image: url(./img/donation13.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.container-box {
+  width: 900px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-box h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.header-banner .container-box p {
+  color: white;
+  font-size: 18px;
+  width: 700px;
+  margin: 0 auto;
+}
+.header-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.donate-btn {
+  text-align: center;
+  background: #ff5959;
+  border: 1px solid transparent;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 16px 12px;
+  margin: 20px;
+}
+.container-box h2 {
+  font-weight: 700;
+  font-size: 45px;
+  margin: 20px 0;
+}
+.container-box p {
+  font-size: 18px;
+  margin: 25px 0;
+  text-align: center;
+  color: #707070;
+}
+
+.amount-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+.amount-box p {
+  padding: 20px 25px;
+  border: 1px solid #fafafa;
+  background: #fafafa;
+  border-radius: 5px;
+  margin: 15px 10px;
+  font-weight: 700;
+  font-size: 30px;
+
+  text-align: center;
+
+  color: #707070;
+}
+.amount-box .red-box {
+  color: #ff5959;
+  background: #ffeeee;
+  border: 2px solid #ff5959;
+}
+.container-box input {
+  margin: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  border: none;
+  padding: 10px;
+  border-bottom: 1px solid #707070;
+  text-align: center;
+  width: 90%;
+  color: #b3b3b3;
+}
+
+.donation-plan {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+.plan-box {
+  width: 300px;
+  padding: 10px;
+  margin-right: 20px;
+}
+.plan-box img {
+  margin: 25px 10px;
+  text-align: left;
+  width: 40px;
+  height: 30px;
+}
+.plan-box p {
+  margin: 25px 0px;
+  text-align: left;
+}
+.food {
+  background-color: rgba(157, 232, 240, 0.1);
+}
+.family {
+  background: rgba(255, 89, 89, 0.1);
+}
+.education {
+  background-color: #fff4d6;
+}
+.subscription-area {
+  height: 200px;
+  width: 800px;
+  background: #fff4d6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscription-area input {
+  width: 260px;
+  height: 35px;
+  border: none;
+  text-align: start;
+  padding: 2px 5px;
+  background: #d9d9d9;
+}
+.subscription-area button {
+  width: 150px;
+  height: 35px;
+  color: white;
+  background-color: #ff5959;
+  border: 1px solid transparent;
+  margin-left: -21px;
+}
+
+.contact-area {
+  background-color: #f2f2f2;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 7px;
+  border: 1px solid #ddd;
+}
+.contact-form textarea {
+  height: 110px;
+}
+.contact-form input[type="submit"] {
+  background-color: #ff5959;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer-area {
+  background: #0b0d17;
+  text-align: center;
+  padding: 30px 0;
+  color: white;
+}
+.footer-area p {
+  color: #ff5959;
+  font-family: "Lobster";
+  font-size: 30px;
+  font-weight: 400;
+  margin: 20px;
+}
